@@ -1,0 +1,67 @@
+version: "2.0"
+
+intents:
+  - greet
+  - ask_name
+  - ask_family_name
+  - ask_company
+  - ask_role
+  - great_newsletter
+  - ask_newsletter
+  - ask_email
+  - ask_number
+  - ask_phone
+  - ask_insterest
+  - finalize_subscription
+  - done
+  - ask_questions
+  - goodbye
+
+responses:
+  utter_greet:
+    - text: "Hi there! I noticed you were looking at some of our past projects. Would you be interested in getting a free whitepaper?"
+
+  utter_ask_name:
+    - text: "Okay. First things first - can you give me your first name?"
+
+  utter_ask_family_name:
+    - text: "Nice to meet you, John. What's your family name?"
+
+  utter_ask_company:
+    - text: "And which company do you currently work at?"
+
+  utter_ask_role:
+    - text: "Sounds awesome! What exactly is your current role at Daimler?"
+
+  utter_great_newsletter:
+  - text: "We'd love to send you a free one coming with a subscription to all the latest news regarding Mercedes Benz Consulting."
+
+  utter_ask_newsletter:
+    - text: "Do you want to occasionally receive information about any interesting projects from us?"
+
+  utter_ask_email:
+    - text: "Okay, could you give me your email where I can send the whitepaper?"
+
+  utter_ask_number:
+    - text: "How many people approximately work at your company?"
+
+  utter_ask_phone:
+    - text: "If you'd like you can provide your phone number and my colleagues will reach out to discuss further!"
+
+  utter_ask_interest:
+    - text: "Finally, could you tell me which describes best your area of interest?"
+
+  utter_finalize_subscription:
+  - text: "Perfect, give me a second to finalize the subscription..."
+
+  utter_done:
+  - text: "You've now been subscribed! You will receive an email with a confirmation, as well as your whitepaper soon!"
+  utter_ask_questions:
+    - text: "Can I help you with anything else?"
+
+  utter_goodbye:
+    - text: "Great, thank you for the nice chat and see you soon! Bye!"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

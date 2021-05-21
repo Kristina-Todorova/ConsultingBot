@@ -1,0 +1,35 @@
+version: "2.0"
+
+stories:
+
+- story: user subscribes to the newsletter
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: confirm
+  - action: utter_ask_name
+  - intent: name
+  - action: utter_ask_family_name
+  - intent: fname
+  - action: utter_ask_company
+  - intent: company
+  - action: utter_ask_role
+  - intent: jobtitle
+  - action: utter_great_newsletter
+  - action: utter_ask_newsletter
+  - intent: confirm
+  - action: utter_ask_email
+  - intent: email
+  - action: utter_ask_number
+  - intent: number
+  - action: utter_ask_phone
+  - intent: phone
+  - action: utter_ask_interest
+  - intent: interest
+  - action: utter_finalize_subscription
+  - action: utter_done
+  - action: utter_ask_questions
+  - intent: deny
+  - action: utter_goodbye
+
+

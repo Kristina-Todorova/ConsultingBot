@@ -1,0 +1,168 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: confirm
+  examples: |
+    - yes
+    - sure
+    - of course
+    - yes sure
+    - yeah
+    - okay
+    - yes please
+    - i would love to
+    - yea
+    - ok
+    - ok sure
+
+- intent: name
+  examples: |
+    - Karen
+    - John
+    - Michael
+    - Max
+    - It's Christine
+    - Martin
+    - I'm Peter
+    - Mike
+    - my name is Angelina
+    - Laura
+    - William
+    - Kate
+    - David
+    - Tom
+    - Helga
+    - Luca
+    - Annika
+    - Teodora
+    - Lisa
+
+- intent: fname
+  examples: |
+    - Smith
+    - Richardson
+    - Muller
+    - Schmidt
+    - Clarkson
+    - Johnson
+    - Williams
+    - Brown
+    - Schneider
+    - Fischer
+    - Weber
+    - Wagner
+    - Schulz
+    - Hoffman
+
+- intent: company
+  examples: |
+    - Daimler
+    - Bosch
+    - Porsche
+    - Lidl
+    - SAP
+    - Digimind
+    - Deutsche Bahn
+    - Adidas
+    - Mercedes Benz
+    - Volkswagen
+    - Allianz
+    - Siemens
+    - Drillisch
+
+- intent: jobtitle
+  examples: |
+    - CEO
+    - Marketing Manager
+    - Marketing Director
+    - Vice President
+    - CTO
+    - CMO
+    - Senior manager
+    - Marketing Executive
+    - Account Executive
+    - Innovation Manager
+    - Student
+    - Business Developer
+    - Software Engineer
+    - UX Designer
+    - Consultant
+
+- intent: email
+  examples: |
+    - johnsmith@gmail.com
+    - krisitodorowa@gmail.com
+    - william.schneider@daimler.com
+    - stephan.schwarz@bosch.com
+    - larablum@hotmail.com
+    - julian_ulrich@porsche.com
+    - achim.wagner@abv.bg
+    - teodora.kazakova@gmail.com
+    - laura_johnson@allianz.com
+
+- intent: number
+  examples: |
+    - 300 people
+    - around 500
+    - 30 000 people
+    - 6000
+    - we have 7000 people
+    - 34300 workers
+    - 700
+    - 10000 people
+    - about 400
+    - 800
+
+- intent: phone
+  examples: |
+    - my phone number is 015255161678
+    - my number is 01548897689
+    - my phone is 01537889657
+    - you can reach me at 015166228819
+    - call me at 01521818943
+    - 015277448356
+    - 015123439586 phone number
+    - the number is 015344567834
+
+- intent: interest
+  examples: |
+    - Marketing
+    - Software Engineering
+    - Search Engine Optimization
+    - Social Media Management
+    - UX Design
+    - Aftersales
+    - Strategy
+    - Lead Generation
+    - Predictive Marketing
+    - Dynamic Pricing
+    - Sales Process Optimization
+
+- intent: deny
+  examples: |
+    - no
+    - nope
+    - no thanks
+    - not for now
+    - nah
+    - i don't have any questions
+    - not really
+    - no thank you
+    - no that's all
+    - not for now
